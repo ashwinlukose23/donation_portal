@@ -10,6 +10,7 @@
 body{
 	background-color:#f7f9f9;
 	background-image: linear-gradient(150deg,rgb(243, 168, 205),rgb(149, 85, 168), rgb(152, 161, 64));
+	min-height:100vh;
 
 }
 	#menu{
@@ -66,7 +67,6 @@ body{
 
 }
 .container {
-	background: #81c2cfad;
 	width: 45%;
 	position: relative;
 	display: flex;
@@ -131,7 +131,7 @@ a{
 }
 
 @media only screen and (min-width: 828px){
-	.image1 {
-		width: 70%;
-		}
+	body{
+		min-height:0vh;
   }
+}
